@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 90px;
+  text-align: center;
+  line-height: 250px;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.squares {
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+}
